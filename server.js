@@ -3,7 +3,6 @@ import cors from "cors"
 import dotenv from "dotenv"
 import cookieParser from "cookie-parser";
 
-
 import {connectDB} from "./config/connectDB.js"
 import authRoutes from "./routes/authRoute.js"
 import quizRoutes from "./routes/quizRoute.js"
@@ -20,10 +19,6 @@ app.use(cors());
 app.use(cookieParser()); 
 app.use(express.json()); 
 
-// Routes
-// app.use('/', (req,res) => {
-//   res.send('Hello from server');
-// })
 
 app.use('/api/quizzes', quizRoutes);
 app.use('/api/auth', authRoutes);
@@ -42,7 +37,7 @@ async function startServer  (){
     console.error(db.msg)
 }
 
-startServer()
+startServer();
 
 
 
