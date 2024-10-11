@@ -11,10 +11,8 @@ A RESTful API for a basic online quiz application built using Node.js and Expres
   - [Authentication](#authentication)
   - [Quiz Management](#quiz-management)
 - [Data Models](#data-models)
-- [Error Handling](#error-handling)
 - [Testing](#testing)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -76,7 +74,8 @@ A RESTful API for a basic online quiz application built using Node.js and Expres
 - **Body:** 
   ```json
   {
-    "username": "string",
+    "userName": "string",
+    "email": "string", 
     "password": "string"
   }
   ```
@@ -87,7 +86,7 @@ A RESTful API for a basic online quiz application built using Node.js and Expres
 - **Body:**
   ```json
   {
-    "username": "string",
+    "email": "string",
     "password": "string"
   }
   ```
