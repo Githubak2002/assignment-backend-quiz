@@ -206,7 +206,8 @@ These models define the structure of the data stored in MongoDB:
 
 ## Testing
 
-For API testing, use the provided Postman collection: [Quiz API Postman Collection](https://api.postman.com/collections/30812346-8556b7bc-61ce-420a-9ac1-1ae1bd67bf2b?access_key=PMAT-01J9XM64D6VXK0S7NDJKY8EK9A)
+For API testing, use the provided Postman collection: [Quiz API Postman Collection](https://api.postman.com/collections/30812346-8556b7bc-61ce-420a-9ac1-1ae1bd67bf2b?access_key=PMAT-******)
+Please resquest Access key once
 
 ## Contributing
 
